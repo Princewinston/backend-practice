@@ -35,6 +35,9 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://frontend-practice-pied.vercel.app",
+]
 
 
 # Application definition
